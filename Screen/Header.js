@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
   Header1: {
     height: '40%',
     width: '98%',
-    backgroundColor: 'white',
+    backgroundColor: 'black',
     borderRadius: 10,
     flexDirection: 'row',
     justifyContent: 'center',
@@ -153,9 +153,9 @@ const styles = StyleSheet.create({
   Header24: {
     height: '88%',
     width: '12%',
-    margin: '1%',
+    marginLeft:'9%',
     borderRadius: 10,
-    backgroundColor: 'white',
+    backgroundColor: 'black',
     shadowOffset: { width: 0, height: 3 },
     shadowColor: '#000',
     shadowOpacity: 1,

@@ -58,7 +58,7 @@ function Header() {
           </View>
           <View style={{
             height: '85%',
-            width: 'auto',
+            width: '90%',
             margin: '1%',
             justifyContent:'center'
           }}>
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
   container: {
     height: '14%',
     width: '95%',
-    marginTop: '10%',
+    
     backgroundColor: '#000',
     borderRadius: 15,
     justifyContent: 'center'

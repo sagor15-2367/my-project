@@ -9,7 +9,7 @@ function Home() {
 
                 </View>
                 <View style={styles.Result}>
-
+                    <Text style={styles.ResultShow}>Result</Text>
                 </View>
 
             </View>
@@ -23,9 +23,9 @@ const styles = StyleSheet.create({
     Body: {
         height: '100%',
         width: '100%',
-        marginTop:'1%',
+        marginTop: '1%',
         alignItems: 'center',
-        
+
 
     },
     Meanbody: {
@@ -56,6 +56,7 @@ const styles = StyleSheet.create({
         height: '18%',
         width: '90%',
         backgroundColor: 'white',
+        justifyContent: 'center',
         margin: '2%',
         borderRadius: 10,
         shadowOffset: { width: 0, height: 3 },
@@ -63,6 +64,12 @@ const styles = StyleSheet.create({
         shadowOpacity: 1,
         shadowRadius: 10,
         elevation: 0
+    },
+    ResultShow: {
+        textAlign: 'center',
+        justifyContent: 'center',
+        marginLeft: '80%',
+        shadowOffset: { height: 5, width: 0 }
     }
 });
 
